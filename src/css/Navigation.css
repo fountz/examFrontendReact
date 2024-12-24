@@ -1,0 +1,35 @@
+/* Navigation.css */
+
+/* ปรับพื้นหลังเป็นสีเทา */
+.navbar-light {
+    background-color: #f8f9fa !important; /* สีเทาอ่อน */
+  }
+  
+  /* ปรับสไตล์ของตัวอักษร */
+  .navbar-brand, .nav-link {
+    color: #333 !important; /* ตัวอักษรสีเทาเข้ม */
+    font-size: 1.1rem;
+  }
+  
+  .navbar-brand:hover, .nav-link:hover {
+    color: #5a5a5a !important; /* ตัวอักษรสีเทาเข้มเมื่อ hover */
+  }
+  
+  /* เพิ่มเงาให้ navbar */
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* เพิ่มกรอบให้กับคำว่า ExamApp */
+  .exam-app-brand {
+    border: 2px solid #ccc; /* กรอบสีเทา */
+    border-radius: 5px; /* มุมโค้ง */
+    padding: 5px 15px; /* ระยะห่างภายใน */
+    background-color: #ffffff; /* พื้นหลังสีขาว */
+  }
+  
+  /* ปรับขนาดและความหนาของฟอนต์ใน navbar */
+  .font-weight-bold {
+    font-weight: 700;
+  }
+  
